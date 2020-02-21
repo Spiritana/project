@@ -1,0 +1,1221 @@
+@charset "UTF-8";
+/* line 1, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+nav {
+  height: 51px;
+  background-color: #212121;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 8, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+header {
+  position: relative;
+  height: 51px;
+}
+
+/* line 12, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 15, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 22, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.menu .menu_link {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 32, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 35, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 38, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 51px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 45, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 50, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .subheader_text {
+  margin-top: 6px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+/* line 62, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .subheader_call {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* line 73, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+/* line 86, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .subheader_btn {
+  margin: 19px 0;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+}
+
+/* line 2, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_mixins.sass */
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 106, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.promo {
+  min-height: 799px;
+  background: url("../img/promo_bg.jpg") center center/cover no-repeat;
+  padding: 151px 0 135px 0;
+}
+
+/* line 111, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.promo .promo_header {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+/* line 122, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.promo .promo_subheader {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+/* line 133, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.promo .promo_text {
+  margin-top: 23px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 145, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+}
+
+/* line 2, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_mixins.sass */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 166, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons {
+  min-height: 900px;
+  padding: 71px 0 65px 0;
+}
+
+/* line 169, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 174, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.label {
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  padding: 5px 12px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 189, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.label_change {
+  background-color: #ffffff;
+  color: #070716;
+}
+
+/* line 193, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.title {
+  margin-top: 38px;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+/* line 204, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.title_change {
+  color: #ffffff;
+}
+
+/* line 207, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subtitle {
+  margin-top: 19px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 217, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subtitle_change {
+  color: #ffffff;
+}
+
+/* line 221, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .reasons_item {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 227, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .reasons_item .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+
+/* line 237, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .reasons_item .reasons_descr {
+  width: 343px;
+}
+
+/* line 240, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .reasons_item .reasons_descr .reasons_subtitle {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  color: #1eacc7;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+/* line 250, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.reasons .reasons_item .reasons_descr .reasons_text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  color: #202020;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+/* line 261, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 265, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 267, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item {
+  position: relative;
+  padding-top: 92px;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+
+/* line 274, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_1 {
+  background: url("../img/mobile/m1.jpg") center center/cover no-repeat;
+}
+
+/* line 276, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_2 {
+  background: url("../img/mobile/m2.jpg") center center/cover no-repeat;
+}
+
+/* line 278, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_3 {
+  background: url("../img/mobile/m3.jpg") center center/cover no-repeat;
+}
+
+/* line 280, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_4 {
+  background: url("../img/mobile/m4.jpg") center center/cover no-repeat;
+}
+
+/* line 282, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_5 {
+  background: url("../img/mobile/m5.jpg") center center/cover no-repeat;
+}
+
+/* line 284, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_6 {
+  background: url("../img/mobile/m6.jpg") center center/cover no-repeat;
+}
+
+/* line 286, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_subtitle {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 297, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 311, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 318, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 329, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.mobile .mobile_item_plus:hover:before, .mobile .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 333, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.choice1 {
+  height: 499px;
+  padding-top: 57px;
+  background-color: #070716;
+}
+
+/* line 337, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.choice1_car {
+  display: block;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+/* line 343, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.choice2 {
+  min-height: 397px;
+  padding: 217px 0 138px 0;
+  background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 347, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.choice2_text {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 358, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 360, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 362, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 364, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_title {
+  font-family: Roboto;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  color: #1ca8c3;
+}
+
+/* line 370, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 374, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 8px;
+}
+
+/* line 386, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: inline-block;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/bluetick.png") center center/cover no-repeat;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+}
+
+/* line 395, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require_descr {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1ca8c3;
+}
+
+/* line 406, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 410, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.require .warning .require_list li::before {
+  background: url("../icons/redtick.png") center center/cover no-repeat;
+}
+
+/* line 413, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.world {
+  min-height: 717px;
+  padding: 49px 0;
+  background: url("../img/world_bg.jpg") center center/cover no-repeat;
+  position: relative;
+}
+
+/* line 418, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.world_text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 49px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 433, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer {
+  min-height: 156px;
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 436, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_object {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 442, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 447, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 449, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 452, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links {
+  font-family: Roboto;
+  width: 363px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+/* line 465, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links a {
+  color: #070716;
+}
+
+/* line 467, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links a:hover {
+  text-decoration: none;
+}
+
+/* line 469, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links_sub {
+  font-family: Roboto;
+  width: 389px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+/* line 482, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+}
+
+/* line 484, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_links_sub a:hover {
+  text-decoration: none;
+}
+
+/* line 486, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_lang {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+  margin-top: 19px;
+}
+
+/* line 497, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_social {
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 501, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 509, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.footer_social_item i {
+  color: white;
+}
+
+/* line 512, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_general.sass */
+.subheader .xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 50px;
+  }
+  /* line 12, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .reasons_item .reasons_descr {
+    width: 300px;
+  }
+  /* line 15, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item {
+    width: 273px;
+  }
+  /* line 17, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item .mobile_item_subtitle {
+    font-size: 20px;
+  }
+  /* line 19, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice2 {
+    padding: 217px 0 88px 0;
+    min-height: 347px;
+  }
+  /* line 23, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require br {
+    display: none;
+  }
+  /* line 26, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 28, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 30, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 37, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 8px;
+  }
+  /* line 39, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 10px;
+  }
+  /* line 43, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_logo img {
+    width: 100%;
+  }
+  /* line 45, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_text {
+    font-size: 11px;
+  }
+  /* line 47, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-size: 19px;
+  }
+  /* line 49, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 54, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 40px;
+  }
+  /* line 56, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 59, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  /* line 63, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row .reasons_item {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 66, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row .reasons_item .reasons_descr {
+    margin-top: 20px;
+  }
+  /* line 68, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row .reasons_item .reasons_round {
+    margin-right: 0;
+  }
+  /* line 70, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile {
+    min-height: 824px;
+    padding: 48px 0 19px 0;
+  }
+  /* line 73, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item {
+    width: 228px;
+    height: 218px;
+  }
+  /* line 76, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item .mobile_item_subtitle {
+    font-size: 17px;
+  }
+  /* line 79, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice1_car {
+    width: 100%;
+  }
+  /* line 81, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .world {
+    min-height: 650px;
+  }
+  /* line 84, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  /* line 86, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 89, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 93, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 98, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 110, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 114, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 20px;
+  }
+  /* line 116, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 118, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 126, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 134, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 136, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 138, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 140, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 142, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 145, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .xs-visible {
+    display: block;
+  }
+  /* line 147, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 158, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    display: block;
+    width: 170px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 165, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_header {
+    line-height: 45px;
+  }
+  /* line 167, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_subheader {
+    margin-top: 20px;
+  }
+  /* line 171, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .reasons_item .reasons_descr {
+    width: 350px;
+  }
+  /* line 173, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .reasons_item .reasons_descr .reasons_subtitle {
+    text-align: center;
+  }
+  /* line 175, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .reasons_item .reasons_descr .reasons_text {
+    margin-top: 10px;
+  }
+  /* line 177, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile {
+    padding: 40px 0;
+  }
+  /* line 179, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .world {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 182, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 184, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 186, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 189, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_text {
+    display: none;
+  }
+  /* line 191, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 193, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 11px;
+  }
+  /* line 203, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 208, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 114px 0 35px 0;
+  }
+  /* line 211, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_text {
+    display: none;
+  }
+  /* line 213, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 30px;
+  }
+  /* line 215, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 33px;
+  }
+  /* line 219, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .promo .promo_btn {
+    width: 210px;
+    width-height: 50px;
+    margin-top: 72px;
+  }
+  /* line 223, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 225, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_link {
+    display: block;
+    text-align: center;
+  }
+  /* line 228, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .menu .menu_item {
+    width: 100%;
+    padding: 5px 0;
+  }
+  /* line 231, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 50px 0;
+  }
+  /* line 234, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row .reasons_item {
+    margin-top: 26px;
+  }
+  /* line 236, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .reasons .row .reasons_item .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 239, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile {
+    padding: 22px 0 43px 0;
+  }
+  /* line 241, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .row {
+    margin-top: 30px;
+  }
+  /* line 243, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item {
+    height: 254px;
+    width: 290px;
+    padding: 81px 40px 22px 40px;
+  }
+  /* line 247, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item_subtitle {
+    font-size: 18px;
+    line-height: 1.72;
+  }
+  /* line 252, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .mobile .mobile_item_plus:hover:before, .mobile .mobile_item_plus:hover:after {
+    background-color: #1eacc7;
+  }
+  /* line 254, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice1 {
+    height: 200px;
+    padding-top: 25px;
+  }
+  /* line 257, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice1_car {
+    margin-top: 35px;
+  }
+  /* line 259, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice2 {
+    background: none;
+    background-color: #070716;
+    padding-bottom: 33px;
+  }
+  /* line 263, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .choice2_text {
+    margin-top: 23px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.41;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 271, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .hidden-320 {
+    display: none;
+  }
+  /* line 273, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require {
+    padding: 25px 0 26px 0;
+  }
+  /* line 275, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require_block {
+    margin: 22px 0 0 0;
+  }
+  /* line 277, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 279, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+  }
+  /* line 281, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  /* line 285, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* line 288, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .world {
+    padding: 25px 0 30px 0;
+    min-height: 360px;
+  }
+  /* line 292, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_object {
+    width: 253px;
+  }
+  /* line 294, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+  }
+  /* line 296, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 20px;
+  }
+  /* line 298, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 300, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 302, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  /* line 304, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_links {
+    width: 290px;
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 308, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_links_sub {
+    font-size: 11px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  /* line 313, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  /* line 315, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .footer_lang {
+    margin-top: 10px;
+  }
+  /* line 319, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  /* line 322, ../../../../../Users/anastasiaspirina/Desktop/Убер/src/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
